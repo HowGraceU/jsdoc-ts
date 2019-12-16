@@ -4,10 +4,16 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
+    "commitizen": "^4.0.3",
     "vuepress": "^1.2.0"
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
